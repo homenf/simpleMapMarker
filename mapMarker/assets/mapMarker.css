@@ -1,0 +1,40 @@
+#mapHolder {
+    height: 400px;
+    width: 400px;
+}
+#airportList {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.airportBtn {
+    background-color:wheat;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#removeAll {
+    background-color:lightpink;
+}
+
+#removeAll:hover {
+    background-color:lightcoral;
+}
+
+.airportBtn:hover {
+    background-color: lightblue;
+}
+
+.airportBtn.selected {
+    background-color: greenyellow;
+}

@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key={{settings.API_KEY}}&callback=initMap">
+    </script>
+    <link rel="stylesheet" href="{%static 'mapMarker.css'%}"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+        var data = JSON.parse('{{data|safe}}');
+    </script>
+    <script type="text/javascript" src="{%static 'mapMarker_base.js'%}" defer></script>
+    
+    <div> Airport Map Marker </div>
+    <div id="mapHolder"></div>
+    <li id="airportList">
+        <ul><button id="removeAll"> Remove All </button></ul>
+    </li>
+</body>
+</body>
+</html>
