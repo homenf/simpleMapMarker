@@ -12,7 +12,6 @@ def home(request):
 def about(request):
     p = staticfiles_storage.path('airports.csv')
     df = pd.read_csv(p)
-    df = df.head(2)
 
     # for idx in range(len(df)):
     jsonData = df[["AIRPORT", "LATITUDE", "LONGITUDE"]].to_json(orient="records")

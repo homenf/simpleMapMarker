@@ -22,7 +22,7 @@ DFW,Dallas-Fort Worth International,Dallas-Fort Worth,TX,USA,32.89595056,-97.037
 DTW,Detroit Metropolitan-Wayne County,Detroit,MI,USA,42.21205889,-83.34883583
 ELP,El Paso International,El Paso,TX,USA,31.80666667,-106.3778056
 EWR,Newark Intl,Newark,NJ,USA,40.69249722,-74.16866056
-FLL,Fort Lauderdale-Hollywood Int'l,Ft. Lauderdale,FL,USA,26.07258333,-80.15275
+FLL,Fort Lauderdale-Hollywood Int-l,Ft. Lauderdale,FL,USA,26.07258333,-80.15275
 HNL,Honolulu International,Honolulu,HI,USA,21.31869111,-157.9224072
 HOU,William P X,Houston,TX,USA,29.64541861,-95.27888889
 IAD,Washington Dulles International,Chantilly,VA,USA,38.94453194,-77.45580972
@@ -47,7 +47,7 @@ OGG,Kahului,Kahului,HI,USA,20.89864972,-156.4304578
 OKC,Will Rogers World,Oklahoma City,OK,USA,35.39308833,-97.60073389
 OMA,Eppley Airfield,Omaha,NE,USA,41.30251861,-95.89417306
 ONT,Ontario International,Ontario,CA,USA,34.056,-117.6011944
-ORD,Chicago O'Hare International,Chicago,IL,USA,41.979595,-87.90446417
+ORD,Chicago O-Hare International,Chicago,IL,USA,41.979595,-87.90446417
 ORF,Norfolk International,Norfolk,VA,USA,36.89461111,-76.20122222
 PBI,Palm Beach International,West Palm Beach,FL,USA,26.68316194,-80.09559417
 PDX,Portland Intl,Portland,OR,USA,45.58872222,-122.5975
@@ -293,7 +293,7 @@ RFD,Greater Rockford,Rockford,IL,USA,42.19536389,-89.09721111
 RHI,Rhinelander-Oneida County,Rhinelander,WI,USA,45.63119306,-89.46745361
 RKS,Rock Springs-Sweetwater County,Rock Springs,WY,USA,41.5942175,-109.0651928
 ROA,Roanoke Regional  Woodrum ,Roanoke,VA,USA,37.32546833,-79.97542833
-ROC,Greater Rochester Int'l,Rochester,NY,USA,43.11886611,-77.67238389
+ROC,Greater Rochester Int-l,Rochester,NY,USA,43.11886611,-77.67238389
 ROW,Roswell Industrial Air Center,Roswell,NM,USA,33.30155556,-104.5305556
 RST,Rochester International,Rochester,MN,USA,43.90882639,-92.49798722
 SAF,Santa Fe Municipal,Santa Fe,NM,USA,35.61677778,-106.0881389

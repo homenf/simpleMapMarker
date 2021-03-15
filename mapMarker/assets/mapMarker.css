@@ -1,9 +1,17 @@
-#mapHolder {
-    height: 400px;
-    width: 400px;
+#wrapper {
+    display: flex;
 }
+
+#mapHolder {
+    display: inline-block;
+    height: 600px;
+    width: 600px;
+}
+
 #airportList {
-    list-style-type: none;
+    display: inline-block;
+    height: 600px;
+    overflow: scroll;
 }
 
 button {
